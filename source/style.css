@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  background-color: #faf5ed;
+  font-family: "Open Sans";
+  font-size: 14px;
+  margin-top: 1.1em;
+}
+
+.root {
+  width: 80%;
+  margin: .2em auto;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  font-family: "Roboto";
+  color: white;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0 auto;
+  background-color: #7a3636d5;
+  width: 78.5%;
+  padding: 0.2em;
+}
+
+.header h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h3, h4 {
+  font-family: "Roboto";
+}
+
+.content {
+  background: url("../images/Sad-Dog-1200x900.jpg") no-repeat center 25%/78% #a19b95;
+  position: relative;
+  top: 5vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  min-height: 110vh;
+  margin-bottom: 2.6em;
+}
+
+.content h2 {
+  font-family: "Roboto";
+  text-align: center;
+  color: #7a3636;
+  margin: 0;
+  padding: 0.3em;
+}
+
+.content h2#subh {
+  top: 12vh;
+  z-index: 1;
+  height: 4vh;
+  background-color: #d9d7d5;
+  padding: 0.3em;
+  -webkit-box-shadow: 0px 0.5px 4px grey;
+          box-shadow: 0px 0.5px 4px grey;
+}
+
+.content .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 20em;
+}
+
+.textdiv {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 33%;
+  margin: 0.6em;
+  padding: 1em;
+  -webkit-box-shadow: 0.5px 0.5px 4px grey;
+          box-shadow: 0.5px 0.5px 4px grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out, -webkit-transform 0.8s ease-in-out;
+}
+
+.textdiv:hover {
+  background-color: white;
+  -webkit-box-shadow: 0.5px 0.5px 10px #575757;
+          box-shadow: 0.5px 0.5px 10px #575757;
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.linkbutton {
+  background-color: #7a3636;
+  min-width: 12em;
+  height: 3em;
+  border-radius: 2em;
+  -webkit-box-shadow: 0.5px 0.5px 4px grey;
+          box-shadow: 0.5px 0.5px 4px grey;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+}
+
+.linkbutton:hover {
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  background-color: #d66767;
+  -webkit-box-shadow: 0.5px 0.5px 10px #575757;
+          box-shadow: 0.5px 0.5px 10px #575757;
+}
+
+.buttontext {
+  color: white;
+  text-shadow: 0.5px 0.5px 3px black;
+  text-decoration: none;
+}
+
+/*******/
+.avail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: .4em 0;
+}
+
+.avail div:last-child {
+  margin: 1.5em 0;
+  width: 66%;
+  /* border: 1px solid green; */
+}
+
+iframe {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  font-size: 16px;
+  text-shadow: 1px 2px 4px grey;
+  width: 75vw;
+  padding: 0.05em;
+}
+/*# sourceMappingURL=style.css.map */
